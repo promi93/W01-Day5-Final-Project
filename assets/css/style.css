@@ -1,1 +1,125 @@
-/* Your styles here */
+
+body {
+    background-color: #ffffff;
+    font-size: 1.2rem;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #393d41;
+    font-weight: 300;
+    line-height: 1.65;
+    box-sizing: border-box;
+    margin: 0;
+    text-align: center;
+}
+
+header {
+    background-color: black;
+    text-align: center;
+    padding: 1em;
+}
+
+.logo {
+    width: 30%;
+}
+
+.first-container {
+    background-image: url(/assets/images/banner.jpg);
+    background-size: cover;
+    padding-top: 1em;
+    padding: 2.5em;
+}
+
+.first-container a {
+    background-color: #f04c2f;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: small;
+    padding: 1em;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+}
+
+h1, h3 {
+    color: #25a2c3;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+article h3 {
+    margin-top: 3em;
+
+}
+
+.netbook {
+    border-radius: 100%;
+    width: 70%;
+}
+
+
+.testimonianze {
+    background-color: #e22d0e;
+    padding: 1em;
+    color: white;
+}
+
+.testimonianze p {
+    font-size: 0.6em;
+    margin-bottom: 1px;
+    font-weight: lighter;
+}
+
+h2>p {
+    font-style: italic;
+    font-weight: lighter;
+}
+
+img {
+    width: 100%;
+}
+
+
+
+section {
+    text-align: center;
+    border: 1px solid #dee1e3;
+    border-radius: 5px;
+    margin: 10%;
+    padding: 0.4em;
+}
+
+
+footer {
+    background-color: #25a2c3;
+    color: white;
+    font-size: smaller;
+    margin-bottom: 0;
+    line-height: 0.2;
+    padding: 0.3em;
+}
+
+footer h1 {
+    color: white;
+    padding: 0.6em auto;
+}
+
+p>a {
+    color: #c8e7f0;
+}
+
+.copy {
+    border-top: 1px solid #dee1e3;
+    width: 30%;
+    padding: 1em;
+    margin: 0 auto;
+}
+
+.copy p {
+    font-size: 0.7em;
+}
+
+.adress a {
+    text-decoration-line: none;
+}
