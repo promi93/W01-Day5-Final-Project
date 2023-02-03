@@ -1,7 +1,7 @@
 
-body {
+body, html {
     background-color: #ffffff;
-    font-size: 1.2rem;
+    font-size: 1.2em;
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #393d41;
     font-weight: 300;
@@ -54,7 +54,7 @@ article h3 {
 }
 
 .netbook {
-    border-radius: 100%;
+    border-radius: 50%;
     width: 70%;
 }
 
@@ -83,18 +83,19 @@ img {
 
 
 section {
+    display: inline-block;
     text-align: center;
     border: 1px solid #dee1e3;
     border-radius: 5px;
     margin: 10%;
-    padding: 0.4em;
+    padding: 0;
+    font-size: 0.8em;
 }
-
 
 footer {
     background-color: #25a2c3;
     color: white;
-    font-size: smaller;
+    font-size: 0.6em;
     margin-bottom: 0;
     line-height: 0.2;
     padding: 0.3em;
