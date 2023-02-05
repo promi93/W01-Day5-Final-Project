@@ -1,17 +1,15 @@
-
-body, html {
+body,
+html {
     background-color: #ffffff;
     font-size: 1.2em;
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #393d41;
     font-weight: 300;
-    line-height: 1.65;
-    box-sizing: border-box;
-    margin: 0;
-    text-align: center;
+    margin: 0 auto;
 }
 
 header {
+    text-align: center;
     background-color: black;
     text-align: center;
     padding: 1em;
@@ -26,6 +24,7 @@ header {
     background-size: cover;
     padding-top: 1em;
     padding: 2.5em;
+    text-align: center;
 }
 
 .first-container a {
@@ -41,25 +40,32 @@ header {
     border-radius: 5px;
 }
 
-h1, h3 {
+h1,
+h3 {
     color: #25a2c3;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    line-height: 1.5;
 }
 
-article h3 {
-    margin-top: 3em;
 
+
+article {
+    font-size: 0.7em;
+    line-height: 1.2;
+    text-align: left;
+    margin-left: 50%;
 }
+
 
 .netbook {
+    text-align: center;
     border-radius: 50%;
-    width: 70%;
+    width: 26%;
 }
 
 
 .testimonianze {
+    text-align: center;
     background-color: #e22d0e;
     padding: 1em;
     color: white;
@@ -67,7 +73,6 @@ article h3 {
 
 .testimonianze p {
     font-size: 0.6em;
-    margin-bottom: 1px;
     font-weight: lighter;
 }
 
@@ -76,25 +81,30 @@ h2>p {
     font-weight: lighter;
 }
 
-img {
-    width: 40%;
-}
-
-
-aside{
+aside {
+    text-align: center;
+    padding: 20px;
     display: -webkit-box;
 }
 
 section {
     text-align: center;
+    font-size: 0.6em;
     border: 1px solid #dee1e3;
-    border-radius: 5px;
-    font-size: 0.2em;
-    margin: 0 auto;
-    padding: 0;
+    width: 20%;
+    margin-left: 10%;
+}
+
+section p {
+    padding: 2px;
+}
+
+img {
+    width: 100%;
 }
 
 footer {
+    text-align: center;
     background-color: #25a2c3;
     color: white;
     font-size: 0.6em;
